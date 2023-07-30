@@ -1,0 +1,1 @@
+This project is about sending email to users. A random quote is sent to users on s specific day.
