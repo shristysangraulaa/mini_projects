@@ -10,5 +10,6 @@ movie_list= []
 for word in a_findtitle:
     movie_list.append(word.text)
 
-for item in reversed(movie_list):
-    print(item)
+with open("movies.txt", mode="w") as file:
+    for item in reversed(movie_list):
+        file.write(f"{item}\n")
